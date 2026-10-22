@@ -26,7 +26,7 @@ cloog_basename_version() {
 do_cloog_get() {
     CT_GetFile "$(cloog_basename_version)"          \
         http://www.bastoul.net/cloog/pages/download \
-        ftp://gcc.gnu.org/pub/gcc/infrastructure
+        ftp://gcc.gnu.org/pub/gcc/infrastructure    \
         https://mirror.sg.gs/macports/distfiles/cloog
 }
 
